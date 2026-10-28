@@ -1,9 +1,8 @@
 name: CI
-on:push:
+on: push
 
-  jobs:
-    test:
-      runs-on: ubuntu-latest
-      steps: 
-        - run: echo "Running tests..."
-
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo " test"
