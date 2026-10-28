@@ -4,6 +4,6 @@ on:push:
   jobs:
     test:
       runs-on: ubuntu-latest
-      steps: -
+      steps: 
         - run: echo "Running tests..."
 
